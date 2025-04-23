@@ -32,7 +32,7 @@ To include the schema in a JSON file for validation, use the `$schema` keyword:
 To include the schema in a YAML file, use the `$schema` keyword:
 
 ```yaml
-$schema: "https://raw.githubusercontent.com/jwesselink/keycloak-import-schema/refs/heads/main/schema/import-schema-26.0.5.json"
+# $schema: "https://raw.githubusercontent.com/jwesselink/keycloak-import-schema/refs/heads/main/schema/import-schema-26.0.5.json"
 id: my-realm
 realm: example
 enabled: true
